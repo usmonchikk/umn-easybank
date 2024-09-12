@@ -1,3 +1,12 @@
+/* Custom Props */
+:root{
+--green: #30c88f;
+--black:  #2d314d;
+--grey:#9597a5;
+
+--gradient:linear-gradient(135deg, #33d33e 0%, #2ab6d9 99.58% );
+}
+
 
 /* GLOBAL */
 
@@ -21,9 +30,10 @@ body{
   margin: 0;
   font-family: "Arial",sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  background-color:#fff;
-color:#222;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  background-color:#fafafa;
+color:var(--grey);
 }
 
 img{
@@ -32,9 +42,9 @@ img{
 }
 .container{
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
